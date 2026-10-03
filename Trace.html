@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trace — Твой личный файловый помощник</title>
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="bunny.png">
+<link rel="apple-touch-icon" href="bunny.png">
+
+<!-- Шрифты -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Comfortaa:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ 1. ПЕРВЫЙ ЭКРАН ============ -->
+  <header class="hero">
+    <div class="wrap">
+      <div class="brand">Trace</div>
+      <h1>Твой личный файловый помощник</h1>
+      <p>Берём организацию ваших файлов на себя</p>
+
+      <div class="hero-actions">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdB0nrpCA-yqSihDaRFzV4GxwFy3IdE5Yo4zwto_XSb_VFQYQ/viewform?usp=preview"
+           target="_blank" rel="noopener" class="btn btn-primary">Пройти анкету</a>
+		<a href="#solution" class="link-secondary">Как это работает</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ 2. О ПРОЕКТЕ ============ -->
+  <section class="about">
+    <div class="wrap">
+      <h2 class="sec-title pink">О проекте</h2>
+      <p>
+        <strong>Trace</strong> — это мобильное приложение для персонального управления файлами.
+        Главная отличительная черта — поддержка <span class="hl-pink">тегирования файлов</span>
+        и <span class="hl-blue">визуализации файлового древа</span>, направленные на улучшение
+        опыта навигации между файлами.
+      </p>
+      <p>
+        Trace решает задачу <span class="hl-yellow">организации и поиска файлов</span>: вместо привычных
+        папок пользователь связывает файлы тегами по смыслу и видит их взаимосвязи в наглядном виде.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ 3. АУДИТОРИЯ ============ -->
+  <section class="audience">
+    <div class="wrap">
+      <h2 class="sec-title blue">Наша аудитория</h2>
+
+      <div class="cards">
+        <article class="persona creative">
+          <div class="persona-head">
+            <div class="avatar"><img src="darina.png" alt="Дарина"></div>
+            <div>
+              <h3>Дарина</h3>
+              <span>художник</span>
+            </div>
+          </div>
+          <p class="persona-desc">
+            Начинающий художник, копит референсы, сохраняет материалы из мессенджеров и соцсетей.
+          </p>
+          <p class="persona-pain">
+            «Чтобы найти референс, приходится открывать 5 разных папок и чатов»
+          </p>
+        </article>
+
+        <article class="persona student">
+          <div class="persona-head">
+            <div class="avatar"><img src="anna.png" alt="Анна"></div>
+            <div>
+              <h3>Анна</h3>
+              <span>студент</span>
+            </div>
+          </div>
+          <p class="persona-desc">
+            Учится в вузе, активно пользуется облаками, мессенджерами и учебными порталами.
+          </p>
+          <p class="persona-pain">
+            «Файлы разбросаны по чатам, дискам и папкам — не помню, где что лежит»
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. ПРОБЛЕМА ============ -->
+  <section class="problem">
+    <div class="wrap">
+      <h2 class="sec-title yellow">Проблема</h2>
+      <p>
+        Студенты и творческие специалисты работают с множеством файлов, которые часто разбросаны
+        по разным хранилищам. Из-за отсутствия чёткой связи между файлами пользователи
+        <span class="hl-pink">теряют их и тратят лишнее время на поиски</span> вместо того, чтобы
+        приступить к работе.
+      </p>
+
+      <div class="subhead">Следствия:</div>
+
+      <div class="mini-cards">
+        <div class="mini-card">
+          <span class="ico">📉</span>
+          теряется продуктивность в учёбе, работе и творческих проектах
+        </div>
+        <div class="mini-card">
+          <span class="ico">🎯</span>
+          фокус пользователя смещается на поиск утерянного файла, а не на саму задачу
+        </div>
+        <div class="mini-card">
+          <span class="ico">📦</span>
+          файлы накапливаются бессистемно
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 5. РЕШЕНИЕ ============ -->
+  <section class="solution" id="solution">
+    <div class="wrap">
+      <h2 class="sec-title green">Решение</h2>
+      <p>
+        Trace помогает пользователю <span class="hl-green">гибко связывать файлы разных форматов</span>
+        через систему тегов, облегчая их поиск и навигацию.
+      </p>
+
+      <div class="subhead subhead-left">Что получает пользователь:</div>
+
+      <div class="solution-grid">
+        <div class="sol-card">
+          <h4>🏷️ Тегирование файлов и добавление описания</h4>
+          <p>Быстрое нахождение нужных файлов, объединение их в логические группы и связи между собой.</p>
+        </div>
+        <div class="sol-card">
+          <h4>🌳 Иерархическая связка тегов</h4>
+          <p>Гибкие связи файлов без дублирования.</p>
+        </div>
+        <div class="sol-card">
+          <h4>🗂️ Отображение полной файловой системы с иконками</h4>
+          <p>Наглядное древо иерархии вместо утомительного перемещения по папкам.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6. МАНИФЕСТ ============ -->
+  <section class="manifesto">
+    <div class="wrap">
+      <div class="manifesto-box">
+        <span class="manifesto-label">Мы верим, что</span>
+        <p class="manifesto-text">
+          если у людей появится удобная система хранения файлов,
+          их продуктивность в повседневных задачах заметно вырастет.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 7. АНКЕТА ============ -->
+  <section class="survey" id="survey">
+    <div class="wrap">
+      <h2>Помогите сделать Trace лучше</h2>
+      <p>
+        Мы проверяем гипотезы через реальную аудиторию и собираем обратную связь.
+        Пройдите короткую анкету — это займёт пару минут и напрямую повлияет на развитие продукта.
+      </p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdB0nrpCA-yqSihDaRFzV4GxwFy3IdE5Yo4zwto_XSb_VFQYQ/viewform?usp=preview"
+         target="_blank" rel="noopener" class="btn btn-cta">Пройти анкету</a>
+    </div>
+  </section>
+
+  <!-- ============ 8. КЛЮЧЕВЫЕ ВОЗМОЖНОСТИ ============ -->
+  <section class="features">
+    <div class="wrap">
+      <h2 class="sec-title pink">Ключевые возможности</h2>
+
+      <div class="feat-grid">
+        <div class="feat-card feat-pink">
+          <span class="ico">🏷️</span>
+          <h4>Тегирование файлов и описания</h4>
+          <p>Связывайте файлы по темам и находите их за секунды.</p>
+        </div>
+        <div class="feat-card feat-blue">
+          <span class="ico">🔗</span>
+          <h4>Иерархические связи тегов</h4>
+          <p>Гибкая структура без дублирования файлов.</p>
+        </div>
+        <div class="feat-card feat-yellow">
+          <span class="ico">🌳</span>
+          <h4>Визуальное древо файлов</h4>
+          <p>Наглядная иерархия с иконками вместо утомительных папок.</p>
+        </div>
+        <div class="feat-card feat-blue">
+          <span class="ico">📤</span>
+          <h4>Быстрый шеринг</h4>
+          <p>Делитесь файлом в Trace прямо из любого приложения.</p>
+        </div>
+        <div class="feat-card feat-pink">
+          <span class="ico">🔔</span>
+          <h4>Напоминания о неотсортированных файлах</h4>
+          <p>Приложение мягко стимулирует поддерживать порядок.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 9. ФИНАЛЬНЫЙ ЭКРАН ============ -->
+  <section class="final">
+    <div class="wrap">
+      <h2>Trace — порядок в файлах без папок</h2>
+      <p>Теги, связи и наглядное древо для тех, кто устал терять свои файлы.</p>
+
+      <div class="contacts">
+        Связаться с нами: <a href="mailto:hello@trace.app">hello@trace.app</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Trace. Проект на стадии MVP — собираем обратную связь.
+  </footer>
+
+</body>
+</html>
